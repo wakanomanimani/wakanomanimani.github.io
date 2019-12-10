@@ -3,8 +3,8 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
-    $(function(){
-      $("#header-template").lord("header.html");
+    $(window).on('load',function(){
+      $("#header-template").on("lord""header.html");
       $("#home-main").lord("contents_list.html");
       $("#footer-template").lord("footer.html");
     });
