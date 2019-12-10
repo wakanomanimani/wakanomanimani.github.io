@@ -3,10 +3,16 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
-    $(window).on('load',function(){
-      $("#header-template").replacewith("header.html");
-      $("#home-main").replacewith("contents_list.html");
-      $("#footer-template").replacewith("footer.html");
+    $.(function(){
+      $.ajax({
+        url:"heade.html",type:"POST"
+      })
+        .done((data){
+              .replaceWith("header-template");
+              })
+      )
+      $("#home-main").replaceWith("contents_list.html");
+      $("#footer-template").replaceWith("footer.html");
     });
     </script>
     <meta charset="utf-8">
