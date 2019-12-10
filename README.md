@@ -1,1 +1,0 @@
-# wakanomanimani.github.io
