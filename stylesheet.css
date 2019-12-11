@@ -97,6 +97,9 @@
 a{
   color: black;
 }
+  .copyright{
+    float: center;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 766px){/*タブレット*/
   .title {
@@ -135,7 +138,7 @@ a{
   .contents li{
     list-style: none;
   }
-  .main{
+  #main{
     font-family: "Yu Mincho"; /*游明朝*/
     float: none;
     font-size: 10px;
@@ -152,7 +155,7 @@ a{
     font-size: 10px;
     margin: auto;
   }
-  .footer{
+  #footer{
     border-top: solid;
   }
   .footer-logo{
@@ -174,6 +177,9 @@ a{
   a{
     color: black;
   }
+  .copyright{
+    font-size: 3%;
+    float: center;
 }
 @media screen and (max-width: 479px){/*スマホ*/
   .title {
@@ -212,7 +218,7 @@ a{
   .contents li{
     list-style: none;
   }
-  .main{
+  #main{
     font-family: "Yu Mincho"; /*游明朝*/
     float: none;
     font-size: 10px;
@@ -229,7 +235,7 @@ a{
     font-size: 10px;
     margin: auto;
   }
-  .footer{
+  #footer{
     border-top: solid;
   }
   .footer-logo{
@@ -251,5 +257,9 @@ a{
   }
   a{
     color: black;
+  }
+  .copyright{
+    font-size: 1%;
+    float: center;
   }
 }
