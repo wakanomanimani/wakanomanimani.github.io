@@ -4,9 +4,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
       $.ajax({
-        url:"heade.html",type:"POST"
+        url:"header.html",type:"POST",dataType:"html"
       })
-        .done((data)).replaceWith("#header-template");
+        .done(function(data){
+        $("#header-template").html(data);
+      })
       $.ajax({
         url:"contents_list.html",type:"POST"
       })
