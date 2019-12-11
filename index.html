@@ -10,13 +10,17 @@
         $("#header-template").html(data);
       });
       $.ajax({
-        url:"contents_list.html",type:"POST"
+        url:"contents_list.html",type:"POST",dataType:"html"  
       })
-        .done((data)).replaceWith("#home-main");
+        .done(function(data){
+        $("#home-main").html(data);
+      });
       $.ajax({
-        url:"footer.html",type:"POST"
+        url:"footer.html",type:"POST",dataType:"html"
       })
-        .done((data)).replaceWith("#footer-template");
+        .done(function(data){
+        $("footer-template").html(data);
+      });
       ;
     </script>
     <meta charset="utf-8">
