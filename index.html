@@ -3,6 +3,7 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
+      function template(){
       $.ajax({
         url:"header.html",type:"POST",dataType:"html"
       })
@@ -21,6 +22,7 @@
         .done(function(data){
         $("#footer-template").html(data);
       });
+      }
       ;
     </script>
     <meta charset="utf-8">
