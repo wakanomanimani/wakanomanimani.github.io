@@ -3,26 +3,30 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
-      function template(){
       $.ajax({
         url:"header.html",type:"POST",dataType:"html"
       })
         .done(function(data){
         $("#header-template").html(data);
       });
+      ;
+    </script>
+    <script type="text/javascript">
       $.ajax({
         url:"contents_list.html",type:"POST",dataType:"html"  
       })
         .done(function(data){
         $("#home-main").html(data);
       });
+      ;
+    </script>
+    <script type="text/javascript">
       $.ajax({
         url:"footer.html",type:"POST",dataType:"html"
       })
         .done(function(data){
         $("#footer-template").html(data);
       });
-      };
       ;
     </script>
     <script type="text/javascript">template();</script>
