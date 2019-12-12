@@ -271,7 +271,7 @@ h3{
 }
      .iframe-wrap{
    position: relative;
-   width: 100%;
+   width: 50%;
    padding-top: 90%;
    overflow: visible;
   }
