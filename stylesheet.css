@@ -58,7 +58,7 @@
  .iframe-wrap{
    position: relative;
    width: 100%;
-   padding-top: auto;
+   padding-top: 90%;
    overflow: visible;
   }
   .iframe-wrap iframe{
@@ -160,7 +160,7 @@
    .iframe-wrap{
    position: relative;
    width: 100%;
-   padding-top: auto;
+   padding-top: 90%;
    overflow: visible;
   }
   .iframe-wrap iframe{
@@ -272,7 +272,7 @@ h3{
      .iframe-wrap{
    position: relative;
    width: 100%;
-   padding-top: auto;
+   padding-top: 90%;
    overflow: visible;
   }
   .iframe-wrap iframe{
