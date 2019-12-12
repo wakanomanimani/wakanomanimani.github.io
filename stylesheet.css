@@ -177,7 +177,7 @@
     margin-right: auto;
   }
 }
-  @media screen and (min-width: 767px) and (max-width: 99999px){/*パソコン*/
+  @media screen and (min-width: 767px) {/*パソコン*/
 .title {
   color: #02ccba;
 }
