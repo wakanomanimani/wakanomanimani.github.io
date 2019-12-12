@@ -175,6 +175,7 @@
     font-size: 3%;
     margin-left: auto;
     margin-right: auto;
+  }
 }
   @media screen and (min-width: 767px) and (max-width: 99999px){/*パソコン*/
 .title {
