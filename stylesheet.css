@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) and (max-width: 479px){/*スマホ*/
+@media screen and (max-width: 479px){/*スマホ*/
   /*.title {
     color: #02ccba;
   }*/
@@ -27,7 +27,7 @@
     float: left;
     font-size: 12px;
     font-family: "Yu Mincho";  /*游明朝*/
-    max-width: 1000px;
+  /*  max-width: 1000px;
     width: 19%;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -58,7 +58,7 @@
  .iframe-wrap{
    position: relative;
    width: 100%;
-   padding-top: 50%;
+   padding-top: 100%;
    overflow: visible;
   }
   .iframe-wrap iframe{
@@ -159,7 +159,7 @@
    .iframe-wrap{
    position: relative;
    width: 100%;
-   padding-top: 50%;
+   padding-top: 100%;
    overflow: visible;
   }
   .iframe-wrap iframe{
@@ -270,7 +270,7 @@ h3{
      .iframe-wrap{
    position: relative;
    width: 100%;
-   padding-top: 50%;
+   padding-top: 100%;
    overflow: visible;
   }
   .iframe-wrap iframe{
