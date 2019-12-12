@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang = "ja">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
+    <title>わかのまにまに</title>
+    <link rel="stylesheet" href="https://wakanomanimani.github.io/stylesheet.css">
   </head>
   <body>
       <div id = "header">
+        <div id = "header-template"></div>
       <div class = "header-logo">わかのまにまに</div>
       <div class = "outline">
           超フリーダム人間わかなが自由気ままに書き綴るブログ
@@ -22,6 +26,7 @@
         It's test.
       </div>
       <div id = "footer">
+        <div id = "footer-template"></div>
       <div class="footer-logo">わかのまにまに</div>
       <ul class = "footer-list">
         <a href="https://wakanomanimani.github.io/index.html"/><li>ホーム</li></a>
@@ -32,6 +37,33 @@
       <div class ="copyright">
         copyright© わかのまにまに , 2019 All Rights Reserved.
     </div>
+    <script type="text/javascript">
+      $.ajax({
+        url:"https://wakanomanimani.github.io/header.html",type:"POST",dataType:"html"
+      })
+        .done(function(data){
+        $("#header-template").html(data);
+      });
+      ;
+    </script>
+    <script type="text/javascript">
+      $.ajax({
+        url:"https://wakanomanimani.github.io/contents_list.html",type:"POST",dataType:"html"  
+      })
+        .done(function(data){
+        $("#home-main").html(data);
+      });
+      ;
+    </script>
+    <script type="text/javascript">
+      $.ajax({
+        url:"https://wakanomanimani.github.io/footer.html",type:"POST",dataType:"html"
+      })
+        .done(function(data){
+        $("#footer-template").html(data);
+      });
+      ;
+    </script>
     </div>
   </body>
 </html>
