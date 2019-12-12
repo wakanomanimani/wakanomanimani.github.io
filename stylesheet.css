@@ -91,6 +91,7 @@
   }
   a{
     color: black;
+    text-decoration: none;
   }
   .copyright{
     font-size: 15px;
@@ -191,6 +192,7 @@
   }
   a{
     color: black;
+    text-decolation: none;
   }
   .copyright{
     font-size: 15px;
@@ -315,6 +317,7 @@ h3{
 }
 a{
   color: black;
+  text-decolation: none;
 }
   .copyright{
     font-size: 20px;
