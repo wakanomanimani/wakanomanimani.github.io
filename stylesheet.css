@@ -274,6 +274,7 @@ h3{
    width: 50%;
    padding-top: 90%;
    overflow: visible;
+   float: left;    
   }
   .iframe-wrap iframe{
     position: absolute;
