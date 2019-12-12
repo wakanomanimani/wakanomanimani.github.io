@@ -42,17 +42,17 @@
     float: none;
     font-size: 20px;
   }
-  .h1{
+  h1{
     font-size: 40px;
     margin: auto;
     border-bottom: medium solid ff0000;
   }
-  .h2{
+  h2{
     font-size: 30px;
     margin: auto;
     border-bottom: medium solid ff0000;
   }
-  .h3{
+  h3{
     font-size: 20px;
     margin: auto;
     border-bottom: medium solid ff0000;
@@ -132,17 +132,17 @@
     float: none;
     font-size: 20px;
   }
-  .h1{
+  h1{
     font-size: 40px;
     margin: auto;
     border-bottom: medium solid ff0000;
   }
-  .h2{
+  h2{
     font-size: 30px;
     margin: auto;
     border-bottom: medium solid ff0000;
   }
-  .h3{
+  h3{
     font-size: 20px;
     margin: auto;
     border-bottom: medium solid ff0000;
@@ -233,17 +233,17 @@
   font-family: "Yu Mincho";
   float: right;
 }
-.h1{
+h1{
   font-size: 50px;
   margin: auto;
   border-bottom: medium solid ff0000;
 }
-.h2{
+h2{
   font-size: 40px;
   margin: auto;
   border-bottom: medium solid ff0000;
 }
-.h3{
+h3{
   font-size: 30px;
   margin: auto;
   border-bottom: medium solid ff0000;
