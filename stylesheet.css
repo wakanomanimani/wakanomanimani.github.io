@@ -3,9 +3,9 @@
     color: #02ccba;
   }
   .header-logo{
-    font-size: 40px;
-    font-family: "Yu Mincho";  /*游明朝*/
-    margin: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .outline{
     float: none;
@@ -94,9 +94,9 @@
     color: #02ccba;
   }
   .header-logo{
-    font-size: 40px;
-    font-family: "Yu Mincho";  /*游明朝*/
-    margin: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .outline{
     float: none;
@@ -182,9 +182,9 @@
   color: #02ccba;
 }
 .header-logo{
-  font-size: 50px;
-  font-family: "Yu Mincho";  /*游明朝*/
-  margin: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo{
   max-width: 1000px;
