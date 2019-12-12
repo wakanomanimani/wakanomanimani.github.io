@@ -58,7 +58,6 @@
   .lists{
     font-size: 40px;
     margin: auto;
-    border-bottom: solid medium #ff0000;
   }
  .iframe-wrap{
    position: relative;
@@ -165,7 +164,6 @@
   .lists{
     font-size: 40px;
     margin: auto;
-    border-bottom: solid medium #ff0000;
   }
    .iframe-wrap{
    position: relative;
@@ -280,11 +278,9 @@ h3{
   border-bottom: solid medium #ff0000;
 }
     .lists{
-    <!--  float: left;-->
+      float: left;
       font-size: 40px;
       margin: auto;
-      border-bottom: solid medium #ff0000;-->
-      text-decolation: underline: medium #ff0000;
     }
      .iframe-wrap{
    position: relative;
