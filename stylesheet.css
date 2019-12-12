@@ -45,17 +45,17 @@
   h1{
     font-size: 40px;
     margin: auto;
-    border-bottom: solid medium ff0000;
+    border-bottom: solid medium #ff0000;
   }
   h2{
     font-size: 30px;
     margin: auto;
-    border-bottom: solid medium ff0000;
+    border-bottom: solid medium #ff0000;
   }
   h3{
     font-size: 20px;
     margin: auto;
-    border-bottom: solid medium ff0000;
+    border-bottom: solid medium #ff0000;
   }
   .footer-logo{
     font-size: 20px;
@@ -135,17 +135,17 @@
   h1{
     font-size: 40px;
     margin: auto;
-    border-bottom: solid medium ff0000;
+    border-bottom: solid medium #ff0000;
   }
   h2{
     font-size: 30px;
     margin: auto;
-    border-bottom: solid medium ff0000;
+    border-bottom: solid medium #ff0000;
   }
   h3{
     font-size: 20px;
     margin: auto;
-    border-bottom: solid medium ff0000;
+    border-bottom: solid medium #ff0000;
   }
   .footer-logo{
     font-size: 20px;
@@ -236,17 +236,17 @@
 h1{
   font-size: 50px;
   margin: auto;
-  border-bottom: solid medium ff0000;
+  border-bottom: solid medium #ff0000;
 }
 h2{
   font-size: 40px;
   margin: auto;
-  border-bottom: solid medium ff0000;
+  border-bottom: solid medium #ff0000;
 }
 h3{
   font-size: 30px;
   margin: auto;
-  border-bottom: solid medium ff0000;
+  border-bottom: solid medium #ff0000;
 }
 #footer{
   width: 100%;
