@@ -9,7 +9,6 @@
   .outline{
     float: none;
     font-size: 15px;
-    font-family: "Yu Mincho"; /*游明朝*/
     margin-top: auto;
   }
   .header-list{
@@ -38,7 +37,6 @@
     list-style: none;
   }
   #main{
-    font-family: "Yu Mincho"; /*游明朝*/
     float: none;
     font-size: 20px;
   }
@@ -82,7 +80,6 @@
   }
   .copyright{
     font-size: 15px;
-    font-family: "Yu Mincho";
     margin-left: auto;
     margin-right: auto;
   }
@@ -99,7 +96,6 @@
   .outline{
     float: none;
     font-size: 20px;
-    font-family: "Yu Mincho"; /*游明朝*/
     margin-top: auto;
   }
   .header-list{
@@ -128,7 +124,6 @@
     list-style: none;
   }
   #main{
-    font-family: "Yu Mincho"; /*游明朝*/
     float: none;
     font-size: 20px;
   }
@@ -170,7 +165,6 @@
     color: black;
   }
   .copyright{
-    font-family: "Yu Mincho";
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -192,7 +186,6 @@
 .outline{
   float: none;
   font-size: 30px;
-  font-family: "Yu Mincho"; /*游明朝*/
   margin-top: auto;
 }
 #header{
@@ -225,12 +218,10 @@
   list-style: none;
 }
 #main{
-  font-family: "Yu Mincho"; /*游明朝*/
   float: none;
   font-size: 30px;
 }
 .date{
-  font-family: "Yu Mincho";
   float: right;
 }
 h1{
@@ -284,7 +275,6 @@ a{
   color: black;
 }
   .copyright{
-    font-family: "Yu Mincho";
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
