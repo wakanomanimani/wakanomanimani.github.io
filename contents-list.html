@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "ja">
+  <head>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>わかのまにまに</title>
+    <link rel="stylesheet" href="https://wakanomanimani.github.io/stylesheet.css">
+  </head>
+  <body>
+   <a href = "https://wakanomanimani.github.io/greet.html">
+   <!--ここからは記事からタイトルと画像の抜き出し-->
+   <?php
+
+$html = file_get_contents("https://wakanomanimani.github.io/greet.html"); 
+$start_leng = mb_strpos($html,"<tytle>") ;
+$end_leng = mb_strpos($html,"</tytle>") - $start_leng ;
+echo mb_substr($html, $start_leng , $end_leng );
+$html = file_get_contents("https://wakanomanimani.github.io/greet.html");
+$start_leng = mb_strpos($img,"<div class = "contents-image">");
+$end_leng = mb_strpos($img,"</div> ") - $start_leng ;
+echo mb_substr($img, $start_leng , $end_leng );
+
+?>
+   <!--ここまでが記事からタイトルと画像の抜き出し-->
+   </a>
+  </body>
+  </html>
