@@ -269,12 +269,14 @@ h3{
   margin: auto;
   border-bottom: solid medium #ff0000;
 }
+    .lists{
+      float: left;
+    }
      .iframe-wrap{
    position: relative;
    width: 50%;
    padding-top: 90%;
    overflow: visible;
-   float: left;    
   }
   .iframe-wrap iframe{
     position: absolute;
