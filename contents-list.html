@@ -10,20 +10,7 @@
   </head>
   <body>
    <a href = "https://wakanomanimani.github.io/greet.html">
-   <!--ここからは記事からタイトルと画像の抜き出し-->
-   <?php
-
-$html = file_get_contents("https://wakanomanimani.github.io/greet.html"); 
-$start_leng = mb_strpos($html,"<tytle>") ;
-$end_leng = mb_strpos($html,"</tytle>") - $start_leng ;
-echo mb_substr($html, $start_leng , $end_leng );
-$html = file_get_contents("https://wakanomanimani.github.io/greet.html");
-$start_leng = mb_strpos($img,"<div class = "contents-image">");
-$end_leng = mb_strpos($img,"</div> ") - $start_leng ;
-echo mb_substr($img, $start_leng , $end_leng );
-
-?>
-   <!--ここまでが記事からタイトルと画像の抜き出し-->
+    ごあいさつ
    </a>
   </body>
   </html>
