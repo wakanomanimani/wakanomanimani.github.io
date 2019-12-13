@@ -15,7 +15,7 @@
       </tr>
     </table>
     <input type="submit" value="送信"/>
-    <a href="index.html">戻る</a>
+    <a href="https://wakanommanimani.github.io/index.html">戻る</a>
   </form>
   <!-- POSTの中身をSESSIONへ受け渡す -->
   <?php
