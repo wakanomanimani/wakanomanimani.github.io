@@ -3,13 +3,13 @@
   mb_internal_encoding("UTF-8");
   session_start();
   $to = "wakanomanimani@google.com";
-  $name = htmlspecialchars($_SESSION['name']);
+  $yourname = htmlspecialchars($_SESSION['yourname']);
   $mail = htmlspecialchars($_SESSION['mail']);
   $comment = htmlspecialchars($_SESSION['comment']);
   $header = "From:$mail";
-  $body = "お名前"."\n"."$name"."\n\n"
+  $body = "お名前"."\n"."$yourname"."\n\n"
   ."メールアドレス"."\n"."$mail"."\n\n"
-  ."コメント"."\n"."$content"."\n\n";
+  ."コメント"."\n"."$comment"."\n\n";
   ?>
   <?php if((mb_send_mail($to,$body,$header))) : ?>
     <p >メールの送信が完了しました</p>
