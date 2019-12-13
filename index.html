@@ -36,10 +36,12 @@
         <!--この下にお問い合わせフォームつくる-->
         <div class = "contact-form">
           <h3>コンタクト</h3>
-          <p>メールアドレス（必須）</p>
-          <input>
-          <p>お問い合わせ内容（必須）</p>
-          <textarea></textarea>
+          <label for = "nickname" >お名前（必須）</label>
+          <input id="nickname" type = "text" name = "yourname" placeholder ="お名前（ニックネームも可）">
+          <label for = "male">メールアドレス（必須）</label>
+          <input id = "mail" type = "email" name = "mail" placeholder = "メールアドレス">
+          <label for = "comment">コメント（必須）</label>
+          <textarea id = "comment" name = "comment" placeholder = "自由にコメントを記入してください"></textarea>
           <p>※必須項目は必ずご入力ください</p>
            <input class="contact-submit" type="submit" value="送信">
         </div>
