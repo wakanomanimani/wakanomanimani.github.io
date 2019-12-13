@@ -1,4 +1,4 @@
-<form action="mail.php" method="post">
+<form action="https://wakanomanimani.github.io/mail.php" method="post">
     <h2>確認画面</h2>
     <table border="1">
       <tr>
