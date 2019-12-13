@@ -286,7 +286,7 @@ h3{
   border-bottom: solid medium #ff0000;
 }
     .lists{
-      float: left;
+      /*float: left;*/
       font-size: 40px;
       margin: auto;
     }
@@ -341,9 +341,6 @@ a{
   color: black;
   text-decolation: none;
 }
-    .contact-form input,textarea{
-      width: 100%;
-    }
     .contact-submit{
       background-color: #ff0000;
       color: #ffffff;
