@@ -36,6 +36,7 @@
         <!--この下にお問い合わせフォームつくる-->
         <div class = "contact-form">
           <h3>コンタクト</h3>
+          <form action = "confirmation.php" method = "post">
           <label for = "nickname" >お名前（必須）</label>
           <input id="nickname" type = "text" name = "yourname" placeholder ="お名前（ニックネームも可）">
           <label for = "male">メールアドレス（必須）</label>
@@ -44,6 +45,7 @@
           <textarea id = "comment" name = "comment" placeholder = "自由にコメントを記入してください"></textarea>
           <p>※必須項目は必ずご入力ください</p>
            <input class="contact-submit" type="submit" value="送信">
+          </form>
         </div>
       <div class ="copyright">
         copyright© わかのまにまに , 2019 All Rights Reserved.
