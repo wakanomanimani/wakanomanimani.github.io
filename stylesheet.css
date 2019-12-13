@@ -208,6 +208,10 @@
     color: black;
     text-decolation: none;
   }
+  .contact-form input, textarea{
+    width: 450px;
+    height: 40px;
+  }
       .contact-submit{
       background-color: #ff0000;
       color: #ffffff;
