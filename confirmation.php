@@ -3,7 +3,7 @@
     <table border="1">
       <tr>
         <td>お名前</td>
-        <td><?php echo $_POST["name"]; ?></td>
+        <td><?php echo $_POST["yourname"]; ?></td>
       </tr>
       <tr>
         <td>メールアドレス</td>
@@ -20,7 +20,7 @@
   <!-- POSTの中身をSESSIONへ受け渡す -->
   <?php
   session_start() ;
-  $_SESSION["name"] = $_POST["name"];
+  $_SESSION["yourname"] = $_POST["yourname"];
   $_SESSION["mail"] = $_POST["mail"];
   $_SESSION["comment"] = $_POST["comment"];
   ?>
