@@ -100,6 +100,8 @@
     .contact-submit{
       background-color: #ff0000;
       color: #ffffff;
+      padding: 10px 20px;
+      border-style: none;      
     }  
   .copyright{
     font-size: 15px;
@@ -209,6 +211,8 @@
       .contact-submit{
       background-color: #ff0000;
       color: #ffffff;
+      padding: 10px 20px;
+      border-style: none;        
     }
   .copyright{
     font-size: 15px;
@@ -293,7 +297,7 @@ h3{
      .iframe-wrap{
    position: relative;
    width: 100%;
-   padding-top: 90%;
+   padding-top: 60%;
    overflow: visible;
   }
   .iframe-wrap iframe{
@@ -344,6 +348,8 @@ a{
     .contact-submit{
       background-color: #ff0000;
       color: #ffffff;
+      padding: 10px 20px;
+      border-style: none;
     }
   .copyright{
     font-size: 20px;
