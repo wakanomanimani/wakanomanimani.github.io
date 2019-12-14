@@ -22,7 +22,7 @@
   #header ul{
     float: center;
   }
-  .header-list li{
+  .header-list li img{
     list-style: none;
     width: 100%;
     padding: 0;
