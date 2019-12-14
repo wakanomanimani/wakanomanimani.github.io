@@ -37,7 +37,7 @@
     list-style: none;
   }
   #main{
-    float: none;
+    clear: both;
     font-size: 20px;
   }
   h1{
@@ -119,6 +119,7 @@
     height: 100%;
   }
   .copyright{
+    clear: both;
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -164,7 +165,7 @@
     list-style: none;
   }
   #main{
-    float: none;
+    clear: both;
     font-size: 20px;
   }
   h1{
@@ -252,6 +253,7 @@
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
   }
 }
   @media screen and (min-width: 767px) {/*パソコン*/
@@ -302,8 +304,9 @@
   list-style: none;
 }
 #main{
-  float: none;
+  /*float: none;*/
   font-size: 30px;
+  clear: both;
 }
 .date{
   float: right;
@@ -408,5 +411,6 @@ a{
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
   }
 }
