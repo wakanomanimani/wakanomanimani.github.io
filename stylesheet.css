@@ -33,13 +33,13 @@
     font-size: 20px;
   }
   h1{
-    font-size: 40px;
+    font-size: 30px;
     margin: auto;
     /*border-bottom: solid medium #af7aff;*/
     color: #af7aff; /*薄い紫*/
   }
   h2{
-    font-size: 30px;
+    font-size: 25px;
     margin: auto;
     border-bottom: solid medium #ffaec8; /*ピンク*/
     color: #000000; 
@@ -51,7 +51,7 @@
     color: #000000;
   }
   .lists{
-    font-size: 40px;
+    font-size: 30px;
     margin: auto;
   }
  .iframe-wrap{
