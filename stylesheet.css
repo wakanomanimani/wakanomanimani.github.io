@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  /*.outline{
+  .outline{
     float: none;
     font-size: 15px;
     margin-top: auto;
@@ -27,7 +27,7 @@
     float: left;
     font-size: 12px;
     font-family: "Yu Mincho";  /*游明朝*/
-  /*  max-width: 1000px;
+    max-width: 1000px;
     width: 19%;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -35,7 +35,7 @@
   }
   .contents li{
     list-style: none;
-  }*/
+  }
   #main{
     float: none;
     font-size: 20px;
