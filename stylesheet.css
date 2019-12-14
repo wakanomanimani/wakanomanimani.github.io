@@ -53,6 +53,7 @@
   .lists{
     font-size: 30px;
     margin: auto;
+    color: #ffaec8";
   }
  .iframe-wrap{
    position: relative;
@@ -172,6 +173,7 @@
   .lists{
     font-size: 30px;
     margin: auto;
+    color: #ffaec8;
   }
    .iframe-wrap{
    position: relative;
@@ -208,7 +210,7 @@
   }
   a{
     color: black;
-    text-decolation: none;
+    text-decoration: none;
   }
   /*.contact-form input, textarea{
     width: 450px;
@@ -302,7 +304,7 @@ h2{
 h3{
   font-size: 30px;
   margin: auto;
-  *border-bottom: solid medium #af7aff;
+  border-bottom: solid medium #af7aff;
   color: #000000;
 }
     .lists{
@@ -358,7 +360,7 @@ h3{
 }
 a{
   color: black;
-  text-decolation: none;
+  text-decoration: none;
 }
   /*  .contact-form input, textarea{
       width: 500px;
