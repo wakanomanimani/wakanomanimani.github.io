@@ -24,7 +24,7 @@
   }
   .header-list li{
     list-style: none;
-    float: left;
+    /*float: left;*/
     font-size: 12px;
     font-family: "Yu Mincho";  /*游明朝*/
  /*   max-width: 1000px;
@@ -32,6 +32,9 @@
     margin-left: 2.5%;
     margin-right: 2.5%;*/
     padding: auto;
+    border: #ffffff;
+    color: #af7aff;
+    background-color: #ffaec8; 
   }
   .contents li{
     list-style: none;
