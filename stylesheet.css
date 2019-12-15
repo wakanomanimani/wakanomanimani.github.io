@@ -250,6 +250,9 @@
   }
 }
   @media screen and (min-width: 767px) {/*パソコン*/
+    body{
+      backglound-color: #f4f5f7;
+    }
 .title {
   color: #02ccba;
 }
