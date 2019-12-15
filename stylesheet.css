@@ -120,8 +120,7 @@
   .copyright{
     clear: both;
     font-size: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
   }
 }
 
@@ -248,8 +247,7 @@
   }
   .copyright{
     font-size: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     clear: both;
   }
 }
@@ -402,8 +400,7 @@ a{
   }
   .copyright{
     font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     clear: both;
   }
 }
