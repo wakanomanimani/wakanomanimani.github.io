@@ -298,7 +298,7 @@
 }
 #main{
   /*float: none;*/
-  font-size: 30px;
+  font-size: 20px;
   clear: both;
 }
 .date{
@@ -323,7 +323,7 @@ h3{
   color: #000000;
 }
     .lists{
-      font-size: 40px;
+      font-size: 30px;
       margin: auto;
       color: #ffaec8;
     }    
