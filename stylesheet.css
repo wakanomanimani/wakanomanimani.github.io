@@ -2,9 +2,8 @@
   /*.title {
     color: #02ccba;
   }*/
-  .header-logo a img{
-    margin-left: auto;
-    margin-right: auto;
+  .header-logo img{
+    width: 100%;
   }
   .outline{
     float: none;
@@ -15,6 +14,10 @@
     width: 100%;
     height: 100%;
     margin: 0px;
+  }
+  .header-list img {
+    width: 33%;
+    float: left;
   }
   #header {
     float: center;
@@ -123,10 +126,9 @@
   .title {
     color: #02ccba;
   }
-  .header-logo a img{
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .header-logo img{
+   width: 100%;
+   }
   .outline{
     float: none;
     font-size: 20px;
@@ -136,6 +138,10 @@
     width: 100%;
     height: 100%;
     margin: 0px;
+  }
+  .header-list img{
+    width: 16.5%;
+    float: left;
   }
   #header ul{
     float: center;
@@ -247,8 +253,7 @@
   color: #02ccba;
 }
 .header-logo img{
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 .logo{
   max-width: 1000px;
@@ -269,6 +274,10 @@
   height: 100%;
   margin: 0px;
 }
+    .header-list img {
+      width: 16.5%;
+      float: left;
+    }
   #header ul{
     float: center;
   }
