@@ -89,6 +89,7 @@
     padding: 0;
   }
   .footer-list img{
+    float: left;
     width: 33%;
     padding: 0;
     margin: 0;
@@ -363,6 +364,7 @@ h3{
     float: center;
   }
 .footer-list img{
+  float: left;
   width: 16.5%;
   margin: 0;
   padding: 0;
