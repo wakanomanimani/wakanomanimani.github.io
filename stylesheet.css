@@ -46,8 +46,8 @@
   h2{
     font-size: 25px;
     margin: auto;
-    border-bottom: solid medium #ffaec8; /*ピンク*/
-    color: #000000; 
+    /*border-bottom: solid medium #ffaec8;*/ /*ピンク*/
+    color: #ffaec8; 
   }
   h3{
     font-size: 20px;
@@ -171,8 +171,8 @@
   h2{
     font-size: 25px;
     margin: auto;
-    border-bottom: solid medium #ffaec8; /*ピンク*/
-    color: #000000; 
+    /*border-bottom: solid medium #ffaec8;*/ /*ピンク*/
+    color: #ffaec8; 
   }
   h3{
     font-size: 20px;
@@ -313,8 +313,8 @@ h1{
 h2{
   font-size: 30px;
   margin: auto;
-  border-bottom: solid medium #ffaec8; /*ピンク*/
-  color: #000000;
+  /*border-bottom: solid medium #ffaec8;*/ /*ピンク*/
+  color: #ffaec8;
 }
 h3{
   font-size: 30px;
@@ -374,7 +374,7 @@ h3{
     }
 a{
   color: black;
-  text-decoration: none;
+  text-decolation: none;
 }
   /*  .contact-form input, textarea{
       width: 500px;
