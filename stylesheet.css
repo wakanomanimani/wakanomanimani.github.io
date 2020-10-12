@@ -1,6 +1,6 @@
 @media screen and (max-width: 479px){/*スマホ*/
   body{
-    background-color: #fff8dc;
+    background-color: #fff9f2;
   }
   /*.title {
     color: #02ccba;
@@ -127,7 +127,7 @@
 
 @media screen and (min-width: 480px) and (max-width: 766px){/*タブレット*/
   body {
-    background-color: #f4f5f7;
+    background-color: #fff9f2;
   }
   .title {
     color: #02ccba;
@@ -255,7 +255,7 @@
 }
   @media screen and (min-width: 767px) {/*パソコン*/
     body{
-      background-color: #f4f5f7;
+      background-color: #fff9f2;
     }
 .title {
   color: #02ccba;
